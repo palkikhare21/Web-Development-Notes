@@ -1,0 +1,27 @@
+{
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "foreground": "#ff4d88",
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        "scope": "punctuation.definition.comment",
+        "settings": {
+          "foreground": "#ff4d88",
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        "scope": "meta.embedded.block.html comment",
+        "settings": {
+          "foreground": "#ff4d88",
+          "fontStyle": "italic bold"
+        }
+      }
+    ]
+  }
+}
