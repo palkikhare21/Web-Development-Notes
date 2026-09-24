@@ -19,7 +19,7 @@
 
         <label for="pass">Password</label>
     
-        <input type="text" name="" id="pass">
+        <input type="password" name="" id="pass">
         <br>
         <br>
 
@@ -36,7 +36,7 @@
         <br>
         <label for="gender">Male</label>
         <input type="radio" name="gender" id="gender">
-        
+        <!-- to select one gender we need to pass same value in the all the thing -->
         <label for="gender">Female</label>
         <input type="radio" name="gender" id="gender">
        
@@ -46,11 +46,31 @@
         <!-- we use minlength n maxlenght wehen we have to speific the character limit -->
          <!-- we use min n max in the date for the limit date -->
           <label>Linkedin URL</label>
-        <input type="url" name="" id="">
+        <input type="url" name="" id="" accept=".pdf">
+        <!-- accept is use to use specifc type of file -->
 <br>
 <br>
         <label for="">date of joining</label>
         <input type="date" name="" id="" min="2026-09-15" max="2027-09-15">
+        <br>
+        <br>
+        <label for="">resume</label>
+        <input type="file" name=" " id="" >
+        
+       </label>
+        <label for="">skillsss</label>
+        <label for="">html</label>
+        <input type="checkbox" checked>
+        <label for="">css</label>
+        <input type="checkbox" >
+        <!-- checked it will autyomatically get checked n for is to link id  -->
+<!-- name it act as a key for the server -->
+ <!-- action where to redirct the form -->
+  <!-- method to give get postmethod -->
+
+<button type="submit">submit</button>
+<button type="reset">reset</button>
+
     </form>
     
 </body>
