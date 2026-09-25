@@ -6,14 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>FORM</h1>
+    <fieldset>
+        <legend>form</legend>
+        <h1>FORM</h1>
     <form action="">
         <label for="">department</label>
 
-        <select name="" id="">
+        <select name="" id="" multiple>
             <option value="">CSE</option>
             <option value="">ECE</option>
-            <option value="">ME</option>
+            <option value="" selected>ME</option>
         </select>
         <br>
         <label for="">course</label>
@@ -47,8 +49,12 @@
          <input type="range" name="" id="" main="0" max="10" step="1">
          <br>
          <br>
-<label for="">address</label>
-<textarea name="" id="" cols="30" rows="10"></textarea>
+<label for="" required>address</label>
+<textarea name="" id="" cols="50" rows="8" minlength="10" maxlength="20"></textarea>
     </form>
+
+    input type="metre" name="" id="">
+    </fieldset>
+
 </body>
 </html>
