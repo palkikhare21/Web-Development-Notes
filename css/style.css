@@ -1,9 +1,21 @@
-#head2{
+/* #head2{
     background-color: chocolate;
 }
 h5,h6{
         color: blue;
 }
-p{
+/* p{
     background-color: crimson;
+} */
+/* *{
+    background-color: black;
+}  */
+
+div h1{
+    background-color: darkmagenta;
+}
+
+/* child selector */
+div>h1{
+    background-color: hotpink;
 }
