@@ -11,11 +11,19 @@ h5,h6{
     background-color: black;
 }  */
 
-div h1{
+/* div h1{
     background-color: darkmagenta;
 }
 
 /* child selector */
-div>h1{
-    background-color: hotpink;
+/* div>h1{
+    background-color: hotpink; */
+/* } */ 
+
+h4+p{
+    background-color: bisque;
+}
+
+h4~p{
+    background-color: brown ;
 }
