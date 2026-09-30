@@ -14,7 +14,16 @@
 nav a:visited{
     color: aquamarine;
 } */
-
+/* 
 #username:focus{
             background-color: purple;
+} */
+
+/* structured pseudo  */
+
+p:first-child{
+    background-color: red;
+}
+p:last-child{
+    background-color: orangered;
 }
