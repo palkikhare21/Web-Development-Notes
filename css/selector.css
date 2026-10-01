@@ -22,3 +22,14 @@ h5::selection{
     background-color: yellow;
     color: red;
 }
+
+ul li::marker{
+    content: "🚩";
+}
+input::placeholder{
+    color: red;
+}
+
+input::file-selector-button{
+    background-color: green;
+}
