@@ -1,0 +1,24 @@
+h1::first-letter{
+    color: red;
+   
+}
+h5::first-line{
+    color: blue;
+}
+
+#first::after{
+    content: "🎉";
+   
+}
+#second::after{
+    content: "🔨";
+   
+}
+#third::before{
+    content: "👽️";
+   
+}
+h5::selection{
+    background-color: yellow;
+    color: red;
+}
