@@ -1,0 +1,20 @@
+h2{
+    color: blue;
+    txt-align: center;
+}
+
+h1{
+    color: red;
+}
+
+#inn{
+    color: rgb(8, 8, 123);
+}
+body {
+    text-align: center;
+}
+.nav{
+    justify-content: center;
+    
+    justify-content: space-between;
+}
