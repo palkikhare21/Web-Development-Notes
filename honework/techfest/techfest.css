@@ -1,4 +1,6 @@
-
+body{
+    background-color: rgb(247, 242, 236);
+}
 h2{
     color: blue;
     text-align: center;
@@ -37,4 +39,20 @@ body {
     justify-content: center;
     
     justify-content: space-between;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.about-content h1 {
+    text-align: center;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 1.8;
 }

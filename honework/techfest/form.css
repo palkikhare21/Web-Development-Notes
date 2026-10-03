@@ -1,0 +1,98 @@
+body {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.5;
+  background-color: #b2f7d7;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-container > p {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.form-section {
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ccc;
+}
+
+.form-section h2 {
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.form-section > label,
+.field-label {
+  display: block;
+  margin-top: 12px;
+}
+
+.form-section > input:not([type="file"]):not([type="color"]),
+.form-section > select,
+.form-section > textarea {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 4px;
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  font: inherit;
+}
+
+.choice-group label {
+  display: block;
+  margin: 6px 0;
+}
+
+.form-buttons {
+  margin-bottom: 24px;
+}
+
+.form-buttons button {
+  margin-right: 8px;
+  padding: 8px 14px;
+  border: 1px solid #276749;
+  border-radius: 3px;
+  background-color: #276749;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+.form-buttons button[type="reset"] {
+  border-color: #777;
+  background-color: #777;
+}
+
+table{
+  background-color: #9fb1ea;
+}
+
+#reg,
+#faq {
+  text-align: center;
+}
+
+.guidelines-list {
+  padding-left: 0;
+  font-size: 18px;
+  line-height: 1.8;
+  list-style-position: inside;
+  text-align: center;
+}
+
+#faq table {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+}
