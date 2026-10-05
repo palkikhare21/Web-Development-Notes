@@ -1,0 +1,46 @@
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: azure;
+    text-shadow: 2px 2px 5px aqua, 2px 0px 1px aqua;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+     font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1+p{
+    color: darkmagenta;
+    letter-spacing: 8px;
+    word-spacing: 20px;
+    /* it is use to give space from the start the letter will have some space then things will be started  */
+    text-indent: 150px;
+    direction: rtl;
+    /* text-shadow: 1px 1px 5px chartreuse; */
+    line-height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: larger;
+}
+
+#lorem{
+     font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(102, 139, 0);
+}
+
+h4{
+    font-variant: small-caps;
+    color: red;
+    text-shadow: 0px 0px 2px yellow;
+    font-size: xx-large;
+    text-align: center;
+}
