@@ -29,3 +29,13 @@
     background-color: #78bdeb;
    
 }
+
+h2{
+    /* color: rgb(200,0,100 )
+     */
+     color:hsla(33, 100%, 50%, 0.822)
+}
+
+p{
+    color: rgba(250,100,0);
+}
