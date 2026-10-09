@@ -1,23 +1,34 @@
-.circle{
-height: 300PX;
-width: 300px;
-/* background: linear-gradient(45deg,pink,red,skyblue); */
-background: linear-gradient(to left,aqua,orange,green,black);
+.circle {
+    height: 300PX;
+    width: 300px;
+    /* background: linear-gradient(45deg,pink,red,skyblue); */
+    background: linear-gradient(to left, aqua, orange, green, black);
 }
 
 
 
 /* radial gradient */
-.cirs{
-height: 300px;
-width: 600px;
-/* background: linear-gradient(red,yellow,orange); */
-background: radial-gradient(red,yellow,orange);
-background: radial-gradient(circle at bottom left, green,blue,rgb(26, 152, 220)),rgb(94, 178, 233);
+.cirs {
+    height: 300px;
+    width: 600px;
+    /* background: linear-gradient(red,yellow,orange); */
+    background: radial-gradient(red, yellow, orange);
+    background: radial-gradient(circle at bottom left, green, blue, rgb(26, 152, 220)), rgb(94, 178, 233);
 }
 
-.main3{
-background: radial-gradient(ellipse at top right, green,blue,rgb(26, 152, 220)),rgb(94, 178, 233),rgb(39, 222, 222);
+.main3 {
+    height: 300px;
+    width: 600px;
+    background: radial-gradient(ellipse at top right, green, blue, rgb(26, 152, 220), rgb(94, 178, 233), rgb(39, 222, 222));
 
-    
+
+}
+
+#box{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    /* background: conic-gradient(red 0deg 45deg, yellowgreen 45deg 120deg,gray 120deg 260deg, blueviolet 260deg 360deg) ; */
+    background: conic-gradient(red, yellowgreen,gray, blueviolet) ;
+
 }
