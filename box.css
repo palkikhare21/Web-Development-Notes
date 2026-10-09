@@ -13,7 +13,7 @@
 } */
 
 /* to add image n video top of th e image */
-.box{
+/* .box{
     height: 500px;
     width: 500px;
     background: url("sea.png"),url("fish2.gif");
@@ -23,4 +23,23 @@
     background-position: center;
     
     
+} */
+
+/* #main{
+    
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTqm-7v_xTcDMBecgvP3ZqXAPzzuWOebqerRydnSnuEQ&s=10');
+    background-attachment: fixed;
+    /* background-attachment: scroll; */
+
+    /* color: cyan;
+} */ 
+
+.container{
+    height: 300px;
+    width: 90vw;
+    padding: 30px;
+    background-color: lightslategray;
+    white-space: nowrap;
+    overflow-x: scroll;
+    scrollbar-width: none;
 }
