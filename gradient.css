@@ -54,3 +54,41 @@ h2{
     background: skyblue;
 
 }
+
+#i{
+    /* filter: blur(5px); */
+    /* filter: drop-shadow(3px 5px 8px red); */
+    /* filter: grayscale(100%); */
+    /* filter: hue-rotate(245deg);
+    filter: invert(100%);
+    filter: opacity(50%);
+    filter: saturate(500%); */
+    filter: sepia(100%);
+}
+#i:hover{
+    filter: none;
+}
+
+#i1{
+    filter: brightness(50%);
+}
+
+#i1:hover{
+    filter: none;
+}
+#i2{
+    filter: contrast(200%);
+}
+#i2{
+    filter: none;
+}
+body{
+    background: url('https://picsum.photos/600/350');
+}
+.card{
+    height: 250px;
+    width: 300px;
+    margin: 100px auto;
+    border: 5px solid red;
+    backdrop-filter: blur(5px);
+}
