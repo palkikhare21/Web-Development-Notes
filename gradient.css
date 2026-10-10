@@ -32,3 +32,25 @@
     background: conic-gradient(red, yellowgreen,gray, blueviolet) ;
 
 }
+/* bg-clip is the propeertty used to add border color around or inside text image color or the liner gradinet to the text iut has padding-box,content-box,text,border-box */
+h1{
+    font-size: 4rem;
+    background: linear-gradient(rgb(241, 59, 238),orange,rgb(205, 81, 81),rgb(218, 35, 218));
+    background-clip: text;
+    color: transparent;
+}
+
+h4{
+    font-size: 4rem;
+    background: linear-gradient(rgb(235, 52, 52),red,rgb(196, 192, 192));
+    background-clip: text;
+    color: transparent;
+}
+
+h2{
+    padding: 40px;
+    background-clip: border-box;
+    border: 20px dashed blue;
+    background: skyblue;
+
+}
