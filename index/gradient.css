@@ -83,7 +83,7 @@ h2{
     filter: none;
 }
 body{
-    background: url('https://picsum.photos/600/350');
+    /* background: url('https://picsum.photos/600/350'); */
 }
 .card{
     height: 250px;
