@@ -19,3 +19,29 @@
     top: 50px;
     left: 20px;
 }
+
+.b{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: darkred;
+    position: absolute;
+    top: 300px;
+    right: 20px;
+}
+
+nav{
+    padding: 40px;
+    background-color: lightblue;
+    position: sticky;
+    top: 0;
+}
+
+.card{
+    height: 250px;
+    width: 350px;
+    background-color: maroon;
+    border-radius: 30px;
+    position: absolute;
+    top: 130px;
+}

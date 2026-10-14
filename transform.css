@@ -1,0 +1,21 @@
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+    transition: transform 3s;
+}
+
+.box:hover{
+    /* transform: translate(200px); */
+    /* transform: translateX(200px); */
+    /* transform: translateY(200px); */
+
+    transform: rotate(145deg);
+    transform: rotateY(145deg);
+
+    /* transform: scale(1.5);
+    transform: scaleX(2);
+    transform: scaleY(2); */
+
+
+}
