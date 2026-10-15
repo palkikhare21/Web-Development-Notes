@@ -1,13 +1,54 @@
-.box{
+/* .box{
     height: 200px;
     width: 200px;
     background: linear-gradient(rgb(234, 82, 82),rgb(241, 241, 62));
-    transition-property: transform;
+    transition-property: transform; */
     /* transition-duration: 3s; */
-    transition-delay: 5s;
+    /* transition-delay: 5s; */
     /* transition-timing-function: ease; */
+/* } */
+
+/* .box:hover{
+    transform: translate(500px);
+} */
+
+.container{
+    height: 600px;
+    width: 600px;
+    background-color: rgb(77, 84, 84);
+
 }
 
-.box:hover{
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    color: wheat;
+    font-weight: bold;
+    font-size: larger;
+    transition-property: transform;
+    transition-duration: 5s;
+}
+
+.container:hover .box{
     transform: translate(500px);
+}
+
+.b1{
+    transition-timing-function: ease;
+}
+.b2{
+    transition-timing-function: ease-in;
+
+}
+.b3{
+    transition-timing-function: ease-in-out;
+
+}
+.b4{
+    transition-timing-function: ease-out;
+}
+.b5{
+    transition-timing-function: ease;
+
 }
