@@ -3,19 +3,29 @@
     width: 300px;
     background-color: crimson;
     transition: transform 3s;
+    overflow: hidden;
+    padding: 5px;
 }
 
 .box:hover{
-    /* transform: translate(200px); */
+    transform: translate(200px);
     /* transform: translateX(200px); */
     /* transform: translateY(200px); */
 
-    transform: rotate(145deg);
-    transform: rotateY(145deg);
+    /* transform: rotate(145deg);
+    transform: rotateY(145deg); */
 
-    /* transform: scale(1.5);
-    transform: scaleX(2);
+    /* transform: scale(1.5); */
+    /* transform: scaleX(2);
     transform: scaleY(2); */
 
 
+}
+.box:hover img{
+    /* transform: scale(1.2);
+     */
+     /* transform: skew(45deg);
+     transform: skewX(45deg);
+     transform: skewY(45deg0.)10; */
+    
 }
