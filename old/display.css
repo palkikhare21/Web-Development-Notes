@@ -15,3 +15,13 @@ p{
     height: 200px;
     width: 200px;
 }
+
+.b1{
+    background-color: darkorchid;
+    visibility: hidden;
+    display: none;
+}
+
+.b2{
+    background-color: darkblue;
+}
