@@ -1,0 +1,21 @@
+.box{
+    height: 300px;
+    width: 400px;
+    background-color: plum;
+}
+
+#static{
+    position: static;
+}
+
+#fixed{
+    position: fixed;
+    bottom: 0vh;
+    right: 0%;
+}
+
+#sticky{
+    position: sticky;
+    top: 0vh;
+    left: 0vw;
+}
