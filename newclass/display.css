@@ -1,0 +1,15 @@
+#inline, #inline h1, span>h1{
+    /* display: inline; */
+    display: inline-block;
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+#block{
+    /* display: block; */
+    display: inline-block;
+    background-color: cadetblue;
+    height: 60px;
+    width: 30px;
+}

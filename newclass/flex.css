@@ -1,0 +1,44 @@
+#flex-container{
+    display: flex;
+    justify-content: center;
+    border: 5px black solid;
+
+
+}
+.flex{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(148, 12, 12);
+}
+#logo{
+    height: 50px;
+    width: 50px;
+    background-color: cornsilk;
+    margin-left: 15px;
+}
+
+nav{
+    background-color: rgb(65, 155, 224);
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    align-items: center;
+    column-gap: 0px;
+
+}
+ul li{
+    font-size: 27px;
+    font-weight: bolder;
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 34vw;
+}
+
+nav button{
+    margin-right: 17px;
+    height: 45px;
+    width: 114px;
+}
