@@ -2,7 +2,11 @@
     display: flex;
     justify-content: center;
     border: 5px black solid;
-
+    gap: 46px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 80vh;
 
 }
 .flex{
