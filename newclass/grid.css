@@ -6,6 +6,13 @@
 
 #grid-cont{
     display: grid;
-    grid-template-columns: auto auto;
-    gap: 20px;
+    /* grid-template-columns: auto auto; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: 0.1fr 0.1fr 0.1fr; */
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: 141px 146px 157px;
+    /* gap: 20px; */
+}
+#g1 {
+    grid-column: 6 / 7;
 }
