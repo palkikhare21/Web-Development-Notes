@@ -1,0 +1,19 @@
+img{
+    height: 300px;
+}
+
+#trans:hover{
+    transform: translate(240px);
+}
+
+#rotate:hover{
+    transform: rotate(18deg);
+}
+
+#scale:hover{
+    transform: scale(1.1);
+}
+
+#skew:hover{
+    transform: skew(20deg);
+}
