@@ -1,0 +1,56 @@
+#box{
+    height: 200px;
+    background-color: palevioletred;
+    animation-name: chnage-color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+}
+
+#spinner{
+    height: 200px;
+    width: 200px;
+    border: 14px solid purple;
+    border-radius: 50%;
+    border-left: 2px solid transparent;
+    animation-name: spinner ,spn;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes chnage-color {
+    from{
+        background-color: aqua;
+    }
+    to{
+        background-color: darkblue;
+    }
+    
+}
+
+@keyframes spinner {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spn {
+0%{
+    border-color: hotpink;
+}
+20%{
+    border-color: rgb(201, 38, 23);
+} 
+40%{
+    border-color: rgb(41, 16, 153);
+} 
+60%{
+    border-color: rgb(62, 216, 48);
+}     
+}
