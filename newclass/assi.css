@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f3f4f6;
+}
+
+#ball1 {
+    width: 5rem;
+    height: 5rem;
+    flex: 0 0 auto;
+    border-radius: 50%;
+    border: 5px black  ;
+
+}
+
+#ball1 {
+    background: #e74c3c;
+    animation: move-ball-vertical 3s linear forwards;
+}
+
+@keyframes move-ball-vertical {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-200px);
+    }
+}
+
+/* @media (prefers-reduced-motion: reduce) {
+    #ball1,
+    #ball2 {
+        animation: none;
+    }
+} */
