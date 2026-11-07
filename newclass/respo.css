@@ -1,0 +1,39 @@
+@media  screen and (min-width:830px) and (max-width:1832px)  {
+    
+    body{
+        background-color: darksalmon;
+    }
+    h1::after{
+        content: "desktop";
+    }
+    h1{
+        font-size: 65px;
+        color: bisque;
+    }
+}
+@media  screen and (min-width:430px) and (max-width:1044px)  {
+    
+    body{
+        background-color: rgb(105, 156, 217);
+    }
+    h1::after{
+        content: "tab";
+    }
+    h1{
+        font-size: 65px;
+        color: rgb(11, 12, 11);
+    }
+}
+@media  screen and (min-width:0px) and (max-width:523px)  {
+    
+    body{
+        background-color: rgb(217, 232, 52);
+    }
+    h1::after{
+        content: "mobile";
+    }
+    h1{
+        font-size: 65px;
+        color: rgb(11, 12, 11);
+    }
+}
