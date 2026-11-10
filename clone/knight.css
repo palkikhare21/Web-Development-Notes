@@ -1,0 +1,194 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#main-block{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(purple, rgb(185, 21, 125));
+    position: relative;
+    overflow: hidden;
+}
+#main-block > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+#main-block > #main-content{
+    position: relative;
+    z-index: 1;
+}
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+#logo h1{
+    font-size: 1.5rem;
+    white-space: nowrap;
+}
+#main-block > #main-heading,
+#main-block > p{
+    position: absolute;
+    left: 10%;
+    z-index: 1;
+    color: white;
+}
+#main-block > #main-heading{
+    bottom: 30%;
+    font-size: 3rem;
+}
+#main-block > p{
+    bottom: 20%;
+    max-width: 600px;
+    font-size: 1.2rem;
+}
+
+ul {
+     display: flex;
+     align-items: center;
+     gap: 28px;
+     font-size: larger;
+     list-style: none;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+.nav-actions{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#Kitchen{
+    height: 46px;
+    padding: 0 16px;
+    border: 1px solid white;
+    border-radius: 24px;
+    background: transparent;
+    color: white;
+}
+
+#order{
+    height: 46px;
+    padding: 0 20px;
+    border: 0;
+    border-radius: 24px;
+    /* background-color: rgb(218, 53, 24); */
+    background: linear-gradient(rgb(121, 17, 200),rgb(192, 22, 181));
+    color: white;
+}
+#order:hover{
+    background: linear-gradient(rgb(198, 82, 10),orange);
+
+}
+#main-content{
+margin-right: 35%;
+}
+#sub{
+    color: blueviolet;
+}
+span{
+    color: white;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#mess{
+    color: blueviolet;
+
+}
+#para{
+    color: white;
+    font-size: 29px;
+}
+
+#buttons {
+    position: absolute;
+    left: 9%;
+    bottom: 35px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+#buttons button {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+#order-now {
+    width: 228px;
+    height: 60px;
+    border: none;
+    border-radius: 32px;
+    background: linear-gradient(90deg, #c653ec, #f23868);
+    font-size: 20px;
+}
+
+#arrow {
+    font-size: 22px;
+}
+
+#app-store,
+#google-play {
+    width: 238px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 18px;
+    background: rgba(20, 20, 20, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+#apple {
+    font-family: "Segoe UI Symbol", Arial, sans-serif;
+    font-size: 25px;
+}
+
+#play-icon {
+    color: white;
+    font-size: 22px;
+}
+
+#app-text,
+#play-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 18px;
+}
+
+#app-text small,
+#play-text small {
+    font-size: 10px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+#play-text {
+    color: white;
+}
+
+#second-content{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(purple,black);
+}
