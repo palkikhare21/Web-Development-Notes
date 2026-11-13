@@ -6,6 +6,7 @@
 
 body{
     /* background-color: rgb(59, 56, 56); */
+    background-color: black;
 }
 
 /* navbar */
@@ -96,4 +97,66 @@ nav{
     #get{
         width: min(100%, 360px);
     }
+}
+/* section 2 treanding carddd */
+
+.card1{
+    color: white;
+    margin-top: 5%;
+    
+}
+#now{
+    display: flex;
+    /* justify-content: start; */
+    margin-left: 8%;
+    font-size: 40px;
+}
+#images-grid {
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+#images-grid img {
+    width: 80%;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+/* More reasons to join */
+#reasons{
+    color: white;
+    margin-left: 8%;
+    font-size: 40px;
+}
+
+.card2-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 24px 8%;
+}
+
+.reason-box{
+    flex: 1 1 220px;
+    min-height: 250px;
+    box-sizing: border-box;
+    padding: 24px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.reason-box span{
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.reason-box span,
+.reason-box p{
+    color: white;
 }
