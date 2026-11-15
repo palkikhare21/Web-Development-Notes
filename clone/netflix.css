@@ -10,7 +10,17 @@ body{
 }
 
 /* navbar */
+#sign button{
+    background-color: red;
+    height: 30px;
+    width: 80px;
 
+    border: 0px;
+    color: white;
+    font-weight: 700;
+    border-radius: 8%;
+
+}
 nav{
     height: 100px;
     width: 100%;
@@ -121,7 +131,7 @@ nav{
 
 #images-grid img {
     width: 80%;
-    height: 340px;
+    height: 300px;
     object-fit: cover;
     border-radius: 12px;
 }
@@ -130,6 +140,7 @@ nav{
     color: white;
     margin-left: 8%;
     font-size: 40px;
+    margin-top: 5%;
 }
 
 .card2-cards{
@@ -137,11 +148,12 @@ nav{
     flex-wrap: wrap;
     gap: 16px;
     margin: 24px 8%;
+
 }
 
 .reason-box{
     flex: 1 1 220px;
-    min-height: 250px;
+    min-height: 360px;
     box-sizing: border-box;
     padding: 24px;
     color: white;
@@ -150,12 +162,23 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 16px;
+    margin-top: 2%;
+    background-color: #1F1527;
+    
+
 }
 .reason-box span{
-    font-family: monospace;
-    font-size: 30px;
+    /* font-family: monospace; */
+    font-size: 25px;
+   font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
+.reason-box p{
+    font-size: 15px;
 
+}
 .reason-box span,
 .reason-box p{
     color: white;
