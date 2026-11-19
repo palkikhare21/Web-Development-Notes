@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box ;
+}
+body{
+    background-color: black;
+}
+ /* <!-- NAVBAR --> */
+#nav-bar{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    height: 50px;
+    /* background-color: aqua; */
+    /* justify-content: center; */
+    align-items: center;
+}
+#name{
+    font-size: 30px;
+    /* margin-right: 36%; */
+    margin-top: 1%;
+
+}
+a{
+    /* display: flex; */
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+
+}
+#nav-bar a{
+    border: 1px solid #555;
+    border-radius: 20px;
+    padding: 8px 12px;
+    margin-top: 6%;
+    background-color: #555;
+}
+#left-nav{
+    gap: 9%;
+    margin-right: 30%;
+    display: flex;
+    /* border: 1px gray solid; */
+}
+#right-nav{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+/* Go anywhere */
+
+#hero-content{
+    max-width: 600px;
+    margin: 48px auto 80px;
+    text-align: center;
+}
+
+#city{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
