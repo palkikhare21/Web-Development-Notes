@@ -444,9 +444,199 @@ a{
   margin-top: 10%;
   margin-left: 18%
 }
-#reimagined p{
-  line-height: 20%;
+#uber-left p{
+  line-height: 1.5;
+  max-width: 600px;
+  margin-top: 16px;
     font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
+#uber-left button{
+  height: 50px;
+  width: 130px;
+  background-color: #000000;
+  color: white;
+  border-radius: 8px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 16px;
+box-shadow: none;
+border: none;
 
+}
+
+
+/* It’s easier in the apps */
+
+#apps{
+   margin-top: 18%;
+   width: 100%;
+    padding: 10px 0 20px;
+    height: 800px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    background-color: #F6F6F6;
+    height: 500px;
+}
+#head h2{
+  margin-left: 10%;
+  margin-top: 5%;
+
+}
+.cards-wrapper{
+  background-color: #ffffff;
+  height: 200px;
+  width: 560px;
+  display: flex;
+  margin-left: 10%;
+  margin-top: 3%;
+
+}
+.main-card{
+  display: flex;
+}
+.download-card{
+  display: flex;
+  /* margin-top: 6%; */
+}
+.qr-code{
+  height: 180px;
+  margin-top: 2%;
+}
+.card-text{
+  color: #000000;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 10%;
+    margin-left: 10%;
+
+
+}
+
+.second-last{
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  width: calc(100% - 48px);
+  max-width: 1190px;
+  margin: 0 auto;
+  padding: 48px 0;
+}
+
+.rent-img,
+#make-right{
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.rent-img img{
+  display: block;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+#make-right{
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0;
+  font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#make-right p{
+  margin: 24px 0 0;
+}
+#make-right button{
+  height: 50px;
+  width: 130px;
+  background-color: #000000;
+  color: white;
+  border-radius: 8px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 16px;
+box-shadow: none;
+border: none;
+
+}
+
+@media (max-width: 700px) {
+  .second-last{
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .rent-img img{
+    height: auto;
+  }
+}
+/* footerr */
+
+#footer{
+  background-color: #000000;
+  color: #ffffff;
+  padding: 40px 7%;
+  font-family: UberMove, UberMoveText, Arial, sans-serif;
+}
+
+#help{
+  margin-bottom: 40px;
+}
+
+#footer-list{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+#footer-list ul{
+  list-style: none;
+  padding: 0;
+}
+
+#footer-list h2{
+  margin-bottom: 12px;
+}
+
+#footer-list li{
+  margin-bottom: 8px;
+}
+
+#fab-icons{
+  display: flex;
+  gap: 20px;
+  margin: 32px 0;
+}
+
+#footer > div:nth-of-type(4){
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+#footer > div:nth-of-type(4) p{
+  flex-basis: 100%;
+  margin-top: 16px;
+}
+
+#footer > div:last-child{
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+@media (max-width: 700px){
+  #footer-list{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+
+  #footer > div:last-child{
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 420px){
+  #footer-list{
+    grid-template-columns: 1fr;
+  }
+}
