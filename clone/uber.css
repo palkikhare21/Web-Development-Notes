@@ -1,11 +1,11 @@
 *{
     margin: 0%;
     padding: 0%;
-    box-sizing: content-box ;
+    box-sizing: border-box ;
 }
-body{
+/* body{
     background-color: black;
-}
+} */
  /* <!-- NAVBAR --> */
 #nav-bar{
     display: flex;
@@ -15,6 +15,8 @@ body{
     /* background-color: aqua; */
     /* justify-content: center; */
     align-items: center;
+    background-color: black;
+
 }
 #name{
     font-size: 30px;
@@ -40,7 +42,6 @@ a{
     gap: 9%;
     margin-right: 30%;
     display: flex;
-    /* border: 1px gray solid; */
 }
 #right-nav{
     display: flex;
@@ -48,32 +49,404 @@ a{
     gap: 24px;
 }
 
-/* Go anywhere */
+
+/* --------  hero section ---------------*/
+.hero-section {
+  padding: 98px 84px;
+    background-color: black;
+
+}
 
 #hero-content{
-    max-width: 600px;
-    margin: 48px auto 80px;
-    text-align: center;
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  align-items: center;
+  gap: clamp(48px, 7vw, 100px);
+  width: 100%;
+  max-width: 1190px;
+  margin: 0 auto;
 }
 
-#city{
+#details {
+  min-width: 0;
+}
+
+#details h1 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 12px 0 24px;
+}
+/*================ left side============== */
+#city {
+  font-size: 20px;
+  /* margin-bottom: 15px; */
+  color: white;
+}
+
+#city a {
+  /* color: #ffffff; */
+  margin-left: 8px;
+  font-size: 20px;
+}
+/* Dropdown Pill */
+#pickup {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 999px;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 16px;
+  outline: none;
+  width: 180px;
+  height: 50px;
+}
+/* Pickup & Dropoff Inputs */
+.inputs-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 24px;
+}
+
+.loc {
+  background-color: #f3f3f3;
+  color: #000000;
+  border: none;
+  height: 58px;
+  width: 90%;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 16px;
+  outline: none;
+  font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.loc:focus {
+  background-color: #ffffff;
+  box-shadow: inset 0 0 0 2px #000000;
+}
+
+/* Buttons Row */
+.cta-buttons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.see-prices-btn {
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 14px 24px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.see-prices-btn:hover {
+  background-color: #e2e2e2;
+}
+
+.login-link {
+  color: #ffffff;
+  font-size: 15px;
+  text-underline-offset: 5px;
+}
+
+/* ================= RIGHT SIDE (#right-side) ================= */
+#right-side {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  min-width: 0;
+}
+
+#right-ladder {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#left-ladder {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#right-ladder {
+  margin-top: 35px;
+}
+
+#right-side img {
+  width: 100%;
+  height: 156px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+#go{
     color: white;
+    font-size: 50px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* Floating Glassmorphism Banner */
+.schedule-banner {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
+  background: rgba(75, 70, 65, 0.78);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.schedule-banner button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 20px;
+  font-weight: 600;
+  cursor: pointer;
+  width: auto;
+  white-space: nowrap;
+}
+
+/* Mobile Responsive */
+@media (max-width: 850px) {
+  #hero-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  #right-side {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 
 
+        /* <!-- explore wht you can do with uber --> */
+
+#explore {
+    width: 100%;
+    padding: 12px 0 24px;
+    color: white;
+    background-color: black;
+
+}
+
+#explore h2 {
+    margin: 8%;
+    /* font-size: 20px; */
+    /* line-height: 1.2; */
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 40px;
+        color: white;
+}
+
+.boxes {
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    width: 80%;
+    /* border: 1px solid gray; */
+}
+
+.boxes .box {
+    border-radius: 5%;
+    min-height: 180px;
+    padding: 8px 0;
+    background-color: #292929;
+}
+
+.boxes .box h4 {
+    margin:   14px;
+    font-size: 18px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.boxes .box p {
+    margin:  12px;
+    font-size: 18px;
+    line-height: 1.25;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.boxes .box a {
+    font-size: 18px;
+    border: 2px solid white ;
+   background-color: white;
+   color: #000000;
+    margin:   14px;
+    width: 100px;
+    height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+@media (max-width: 700px) {
+    .boxes {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* How to request a ride >>>>>>>>>> */
+.bottom-section{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  width: calc(100% - 48px);
+  max-width: 1190px;
+  margin: 10% auto 0;
+    background-color: black;
+
+}
+#request{
+    background-color: black;
+
+}
+.bottom-section img{
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .bottom-section {
+    grid-template-columns: 1fr;
+  }
+}
+#request {
+    width: 100%;
+    padding: 10px 0 20px;
+    color: white;
+    height: 800px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#request h2 {
+    margin: 8%;
+    /* font-size: 20px; */
+    /* line-height: 1.2; */
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 20px;
+        color: white;
+}
+#plan-trip{
+  font-weight: bold;
+  font-size: 20px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* margin:  12px; */
+
+}
+#reserve a{
+  font-weight: bold;
+
+}
 
 
+/* earn with uber */
 
+#earn{
+  margin-top: 8%;
+  /* margin-left: 10%; */
+   width: 100%;
+    padding: 10px 0 20px;
+    height: 800px;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+}
 
+#auto-img img{
+  height: 300px;
+  width: 1000px;
+  display: grid;
+  margin-left: 16%;
+  margin-top: -80px;
+  border-radius: 9%;
+}
+#earn-uber{
+  margin-left: 7%;
+}
+#earn2{
+  margin-top: 5%;
+}
 
+.earn1{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  width: calc(100% - 48px);
+  max-width: 1190px;
+  margin: 0 auto;
+}
 
+.earn1 > div {
+  min-width: 0;
+}
 
+.earn1 img {
+  display: block;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border: 6px solid blue;
+}
 
+@media (max-width: 700px) {
+  .earn1 {
+    grid-template-columns: 1fr;
+  }
+}
 
+#uber-right img{
+  height: 400px;
+  width: 400px;
+  display: grid;
+  margin-left: 16%;
+  margin-top: 70px;
+  border-radius: 50%;
+}
+#reimagined{
 
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
+}
+#below{
+  display: flex;
+  margin-left: 5%;
+}
+#uber-left{
+  margin-top: 10%;
+  margin-left: 18%
+}
+#reimagined p{
+  line-height: 20%;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-
-
+}
 

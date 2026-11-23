@@ -10,4 +10,18 @@ console.log(arr[9][0][0]);
 console.log(arr[9][1][0]);
 
 
+//OBJECT
+let user={
+    userName:"palki",
+    age:22,
+    addres:{
+        city:"sagar",
+        street:"anyyy"
+    },
+    "2ndaddress":"hyderabad"
+}
+console.log(user["2ndaddress"]);
+console.log(user["addres"]["steert"]);
+
+
 

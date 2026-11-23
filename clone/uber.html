@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="uber.css">
 </head>
+
 <body>
     <!-- NAVBAR -->
 
@@ -27,83 +29,174 @@
             </div>
         </div>
     </nav>
-    <section>
+    <!-- hero section -->
+    <section class="hero-section">
         <div id="hero-content">
-        <p id="city">Dublin, IE 
-            <a href="chnage-city"><u>Change city</u></a>
-        </p>
-        <h1>
-            Go anywhere
-        </h1>
-        <label for="cars">Choose a car:</label>
+            <div id="details">
+                <p id="city">Dublin, IE
+                    <a href="chnage-city"><u>Change city</u></a>
+                </p>
 
-<select id="pickup" name="pickup">
-    <option value="now">PIckup now</option>
-    <option value="later">Schedule later</option>
-</select>
-<div id="details">
-    <input type="text" id="loc" placeholder="Pickup location">
-    <input type="text" id="loc" placeholder="Dropoff location">
-    <div>
-    <a href="price">See prices</a>
-        <a href=""><u>Log in to check your activity</u></a>
-    </div>
+                <h1 id="go">Go anywhere</h1>
 
-    <div id="right-side">
-        <div id="right-ladder">
-            <img src="" alt=""><img src="" alt=""><img src="" alt="">
+                <select id="pickup" name="pickup">
+                    <option value="now">PIckup now</option>
+                    <option value="later">Schedule later</option>
+                </select>
+
+                <div class="inputs-wrapper">
+                    <input type="text" class="loc" placeholder="Pickup location">
+                    <input type="text" class="loc" placeholder="Dropoff location">
+                </div>
+
+                <div class="cta-buttons">
+                    <a href="price" class="see-prices-btn">See prices</a>
+                    <a href=""><u>Log in to check your activity</u></a>
+                </div>
+            </div>
+
+            <!-- RIGHT SIDE (Staggered Images + Banner) -->
+            <div id="right-side">
+                <div id="right-ladder">
+                    <img src="../assest/uber/one.png" alt="">
+                    <img src="../assest/uber/two.png" alt="">
+                </div>
+                <div id="left-ladder">
+                    <img src="../assest/uber/three.png" alt="">
+                    <img src="../assest/uber/four.png" alt="">
+                </div>
+                <div class="schedule-banner">
+                    <span>Ready to travel?</span>
+                    <button>Schedule ahead</button>
+                </div>
+            </div>
         </div>
-        <div id="left-ladder">
-            <img src="" alt=""><img src="" alt=""><img src="" alt="">
-            <div>Ready to travel? <button>Schedule ahead</button></div>
-        </div>
-    </div>
-</div>
-</div>
-
-<!-- explore wht you can do with uber -->
-
-<div id="explore">
-    <p>Explore what you can do with Uber</p>
-    <div id="boxes">
-    <div id="box1">
-        <h4>Ride</h4>
-        <p>Go anywhere with uber. Request a ride,hop in,and go.</p>
-        <a href="">Details</a>
-    </div>
-    <div id="box2"><h4>Reserve</h4>
-        <p>Reserve your ride in advance so you can relax on the day of your trip .</p>
-        <a href="">Details</a></div>
-    <div id="box3">
-        <h4>Bike</h4>
-        <p>Get affordable motorbike rides in mintues at your doorstep .</p>
-        <a href="">Details</a>
-    </div>
-    </div>
 
 
-
-<div id="boxes">
-    <div id="box4">
-        <h4>Intercity</h4>
-        <p>Got convenient, affordable outstation cabs anytime at your door.</p>
-        <a href="">Details</a>
-    </div>
-    <div id="box5"><h4>Parcel</h4>
-        <p>Uber makes same-day item delivery easier than ever..</p>
-        <a href="">Details</a></div>
-    <div id="box6">
-        <h4>Airport</h4>
-        <p>Request a ride to or from the airport with room for your luggage.</p>
-        <a href="">Details</a>
-    </div>
-    </div>
-</div>
-
-<!-- how to request a ride -->
-<div id="request">
-
-</div>
     </section>
+
+    <!-- explore wht you can do with uber -->
+
+    <div id="explore">
+        <h2 id="explore-want">Explore what you can do with Uber</h2>
+        <div class="boxes">
+            <div class="box">
+                <h4>Ride</h4>
+                <p>Go anywhere with uber. Request a ride,hop in,and go.</p>
+                <a href="">Details</a>
+            </div>
+            <div class="box">
+                <h4>Reserve</h4>
+                <p>Reserve your ride in advance so you can relax on the day of your trip .</p>
+                <a href="">Details</a>
+            </div>
+            <div class="box">
+                <h4>Bike</h4>
+                <p>Get affordable motorbike rides in mintues at your doorstep .</p>
+                <a href="">Details</a>
+            </div>
+            <div class="box">
+                <h4>Intercity</h4>
+                <p>Got convenient, affordable outstation cabs anytime at your door.</p>
+                <a href="">Details</a>
+            </div>
+            <div class="box">
+                <h4>Parcel</h4>
+                <p>Uber makes same-day item delivery easier than ever..</p>
+                <a href="">Details</a>
+            </div>
+            <div class="box">
+                <h4>Airport</h4>
+                <p>Request a ride to or from the airport with room for your luggage.</p>
+                <a href="">Details</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- how to request a ride -->
+    <div id="request">
+        <h2 id="explore-want">How to request a ride</h2>
+        <div class="bottom-section">
+
+
+            <div id="reserve">
+                <img src="https://idsb.tmgrup.com.tr/ly/uploads/images/2021/05/30/118050.jpg" alt="">
+                <p id="plan-trip">Plan your trip in advance</p>
+                <p id="sub-plan">Book your ride up to 90 days ahead by choosing Reserve on Uber.com or in the app.</p>
+                <a href=""><u>Reserve now</u></a>
+            </div>
+
+            <div id="reserve">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROVE_t66RYj5vuvrAOrgPv5FZnhnkX4v11HhKh98ObrzzVb95ED5XUn2x2&s=10"
+                    alt="">
+                <p id="plan-trip">Ride in style</p>
+                <p id="sub-plan">Travel in high-end vehicles with our top-rated drivers.</p>
+                <a href=""><u>See prices</u></a>
+
+            </div>
+
+
+            <div id="reserve">
+                <img src="https://s28434.pcdn.co/wp-content/uploads/sites/39/2023/10/package_1154715967.jpg" alt="">
+                <p id="plan-trip">Send items within the day</p>
+                <p id="sub-plan">Get same-day local delivery of forgotten keys, care packages, and much more.</p>
+                <a href=""><u>Send a package</u></a>
+
+            </div>
+
+
+        </div>
+        <br>
+        <br>
+
+        <br>
+
+        <hr>
+    </div>
+
+    <main class="white-section">
+        <div id="auto-img">
+            <img src="https://www.shutterstock.com/shutterstock/videos/1028807156/thumb/1.jpg?ip=x480" alt="">
+        </div>
+
+
+        <div id="earn">
+            <h2 id="earn-uber">Earn with uber</h2>
+            <div class="earn1">
+
+
+                <div id="earn2">
+                    <img src="https://idsb.tmgrup.com.tr/ly/uploads/images/2021/05/30/118050.jpg" alt="">
+                    <p id="plan-trip">Drive and earn on your schedule</p>
+                    <p id="sub-plan">Make money with rides. Use your car or rent one.</p>
+                    <a href=""><u>Sign up to drive</u></a>
+                </div>
+
+                <div id="earn2">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROVE_t66RYj5vuvrAOrgPv5FZnhnkX4v11HhKh98ObrzzVb95ED5XUn2x2&s=10"
+                        alt="">
+                    <p id="plan-trip">Earn with your specialized skills</p>
+                    <p id="sub-plan">Turn your expertise into a remote earning opportunity with Uber AI Solutions.</p>
+                    <a href=""><u>Sign up</u></a>
+
+                </div>
+
+
+            </div>
+
+            <!-- below sectionnnn -->
+             <!-- left image sectionn -->
+              <div id="below">
+              <div id="uber-right">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQxecmNX3jct1oSgJSGhsNXqj4WucDYHQr-4F_NRHhlg&s=10" alt="">
+              </div>
+
+              <div id="uber-left">
+                <h2 id="reimagined">All the benefits of Uber, reimagined for business</h2>
+                <p>Uber for Business gives your organization more control, deeper insights, and features built for enterprise users. Manage and track business travel, meal programs, and more on one dashboard.</p>
+              </div>
+              </div>
+    </main>
 </body>
+
 </html>
